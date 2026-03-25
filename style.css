@@ -73,14 +73,8 @@ nav{position:sticky;top:0;z-index:1000;background:#fff;border-bottom:3px solid v
 
 /* ═══ DESTINATIONS ═══ */
 .dest-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px}
-.dest-card{position:relative;height:200px;overflow:hidden;cursor:pointer;transition:transform .3s}
+.dest-card{position:relative;height:220px;overflow:hidden;cursor:pointer;transition:transform .3s;background-size:cover;background-position:center;background-color:#2d0040}
 .dest-card:hover{transform:scale(1.02)}
-.bg-jp{background:linear-gradient(150deg,#3d0000,#a01020)}
-.bg-kr{background:linear-gradient(150deg,#00205b,#003f8a)}
-.bg-mt{background:linear-gradient(150deg,#6b1515,#c03020)}
-.bg-cy{background:linear-gradient(150deg,#003d80,#0060c0)}
-.bg-eu{background:linear-gradient(150deg,#003399,#0044cc)}
-.bg-au{background:linear-gradient(150deg,#1a4d1a,#2d8a2d)}
 .dest-info{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.8),rgba(0,0,0,.1));display:flex;flex-direction:column;justify-content:flex-end;padding:1.4rem;transition:background .3s}
 .dest-card:hover .dest-info{background:linear-gradient(to top,rgba(107,63,160,.85),rgba(107,63,160,.15))}
 .dest-info h3{font-size:1.1rem;font-weight:700;color:#fff;margin-bottom:.2rem}
